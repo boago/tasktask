@@ -1,6 +1,7 @@
 # tasktask
 
 Task Description
+
 The Retail Store Discounts
 On a retail website, the following discounts apply:
 1. If the user is an employee of the store, he gets a 30% discount
