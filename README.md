@@ -3,6 +3,7 @@
 Task Description
 
 The Retail Store Discounts
+
 On a retail website, the following discounts apply:
 1. If the user is an employee of the store, he gets a 30% discount
 2. If the user is an affiliate of the store, he gets a 10% discount
@@ -17,3 +18,22 @@ bill, it finds the net payable amount.
 UML Diagram
 ![Domain Model Class Diagram](https://user-images.githubusercontent.com/19343791/126443731-c2986d84-889c-481f-a244-95156cf6d4bc.png)
 
+Installing
+
+After checking out the git repo run the following maven command
+
+mvn clean install
+
+From there right click thje project and run it.
+
+Choose test when running test files
+
+
+API
+
+Type - POST
+Endpoint - localhost:8080/api/discount
+
+The request is the User with the bill
+
+and it gives the net amount
